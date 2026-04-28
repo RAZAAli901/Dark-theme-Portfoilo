@@ -1,24 +1,24 @@
 export const portfolioData = {
   personal: {
-    name: "Jeimeen Chaudhari",
-    initials: "Jeimeen (Jony)",
-    roles: ["AI/ML Engineer", "Computer Engineer", "Web Developer"],
+    name: "Raza Ali",
+    initials: "Raza",
+    roles: ["AI/ML Engineer", "Computer Science", "Web Developer"],
     description: "Building production-ready AI systems, intelligent assistants, and ML-driven applications.",
-    email: "jeimeen3001@gmail.com",
-    phone: "+91 9316101640",
-    location: "Surat, Gujarat",
-    heroImage: "/jeimeen-photo.jpg", 
-    logoImage: "/jeimeen-photo-2.jpg",
-    resumeLink: "/Jeimeen_Resume.pdf" 
+    email: "[Your Email]",
+    phone: "[Your Phone Number]",
+    location: "[Your Location]",
+    heroImage: "[Your Hero Image Path]", 
+    logoImage: "[Your Logo Image Path]",
+    resumeLink: "/Raza_Ali_Resume.pdf" 
   },
   socials: {
-    github: "https://github.com/JeimeenChaudhari",
-    linkedin: "https://www.linkedin.com/in/jeimeen-chaudhari-3a680028b/",
-    twitter: "https://x.com/Jeimeen3031",
-    youtube: "https://youtube.com/@jeimen_editzzz",
-    discord: "https://discord.gg/v5rthNq8hr",
-    instagram: "https://instagram.com/jeimeen_Editzzz",
-    facebook: "https://facebook.com"
+    github: "[Your GitHub Link]",
+    linkedin: "[Your LinkedIn Link]",
+    twitter: "[Your Twitter Link]",
+    youtube: "[Your YouTube Link]",
+    discord: "[Your Discord Link]",
+    instagram: "[Your Instagram Link]",
+    facebook: "[Your Facebook Link]"
   },
   marqueeSkills: [
     "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Node.js", 
@@ -46,9 +46,9 @@ export const portfolioData = {
     {
       id: 1,
       type: "education",
-      title: "Bachelor of Engineering in Computer Engineering",
+      title: "Bachelor of Engineering in Computer Science",
       entity: "Gec(Surat)",
-      date: "2023 - 2027",
+      date: "2025 - 2029",
       description: "Focused on software development, data structures, algorithms, and machine learning.",
       tags: []
     },
@@ -79,7 +79,7 @@ export const portfolioData = {
       image: "/projects/batman-cj.png", 
       tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Vercel"],
       liveLink: "https://batman-cj.vercel.app/",
-      githubLink: "https://github.com/JeimeenChaudhari/Batman_CJ"
+      githubLink: "[Your GitHub Project Link]"
     },
     {
       id: 2,
@@ -88,7 +88,7 @@ export const portfolioData = {
       image: "/projects/Typing_Speed_Test.jpg", 
       tags: ["React", "Vite", "JavaScript", "gh-pages"],
       liveLink: "https://jeimeenchaudhari.github.io/Typing_speed_test/",
-      githubLink: "https://github.com/JeimeenChaudhari/Typing_speed_test"
+      githubLink: "[Your GitHub Project Link]"
     },
     {
       id: 3,
@@ -97,7 +97,7 @@ export const portfolioData = {
       image: "/projects/project5.jpg", 
       tags: ["Streamlit", "Python", "Scikit-learn", "Plotly"],
       liveLink: "https://fraud-detection-ump1.streamlit.app/",
-      githubLink: "https://github.com/JeimeenChaudhari/fraud_detection-UMP1"
+      githubLink: "[Your GitHub Project Link]"
     },
     {
       id: 4,
@@ -106,7 +106,7 @@ export const portfolioData = {
       image: "/projects/Battery-Bms.jpg", 
       tags: ["Streamlit", "Python", "Pandas", "DashBoard"],
       liveLink: "https://bms-dashboardflow.streamlit.app/",
-      githubLink: "https://github.com/JeimeenChaudhari/BMS_dashboard"
+      githubLink: "[Your GitHub Project Link]"
     }
   ]
 };

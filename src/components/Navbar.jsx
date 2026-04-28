@@ -44,11 +44,11 @@ export default function Navbar() {
               width="70"
               height="70"
               className="cursor-pointer rounded-full hover:scale-110 transition-transform duration-300 w-10 h-10 object-cover border border-purple-500/50"
-              src="https://api.dicebear.com/7.x/notionists/svg?seed=Jeimeen&backgroundColor=050510"
+              src="https://api.dicebear.com/7.x/notionists/svg?seed=RazaAli&backgroundColor=050510"
             />
           </div>
           <a className="hidden md:flex font-bold ml-[10px] text-gray-300 hover:text-purple-400 transition" href="#about-me">
-            Jeimeen (Jony)
+            Raza Ali
           </a>
         </div>
         
@@ -61,17 +61,17 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="hidden md:flex flex-row gap-5">
-           <a target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/jeimeen_editzzz/" className="text-white hover:text-purple-500 transition">
+        <div className="hidden md:flex flex-row gap-5 items-center">
+           <a target="_blank" rel="noreferrer noopener" href="[Your Instagram Link]" className="text-white hover:text-purple-500 transition">
              Ig
            </a>
-           <a target="_blank" rel="noreferrer noopener" href="https://x.com/Jeimeen3031" className="text-white hover:text-purple-500 transition">
+           <a target="_blank" rel="noreferrer noopener" href="[Your Twitter Link]" className="text-white hover:text-purple-500 transition">
              X
            </a>
-           <a target="_blank" rel="noreferrer noopener" href="https://github.com/JeimeenChaudhari" className="text-white hover:text-purple-500 transition">
+           <a target="_blank" rel="noreferrer noopener" href="[Your GitHub Link]" className="text-white hover:text-purple-500 transition">
              Gh
            </a>
-           <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/jeimeen-chaudhari-3a680028b/" className="text-white hover:text-purple-500 transition">
+           <a target="_blank" rel="noreferrer noopener" href="[Your LinkedIn Link]" className="text-white hover:text-purple-500 transition">
              In
            </a>
         </div>

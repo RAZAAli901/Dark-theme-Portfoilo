@@ -25,24 +25,24 @@ export default function Page() {
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="text-[#b49bff] mr-[10px] h-5 w-5">
                   <path fillRule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5Z" clipRule="evenodd" />
                 </svg>
-                <h1 className="Welcome-text text-[13px] text-center">AI/ML Engineer • Computer Engineer • Web Developer</h1>
+                <h1 className="Welcome-text text-[13px] text-center">AI/ML Engineer • Computer Science • Web Developer</h1>
               </div>
 
               <div className="flex flex-col items-center justify-center gap-4 mt-6">
                 <div className="flex flex-col items-center gap-0 text-5xl md:text-7xl font-bold text-white max-w-[600px]">
                   <span>
                     Hi, I'm{" "}
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Jeimeen</span>{" "}
-                    Chaudhari
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Raza</span>{" "}
+                    Ali
                   </span>
                 </div>
                 <div className="relative w-40 h-40 rounded-full overflow-hidden border-2 border-purple-500 shadow-lg shadow-purple-500/50 flex-shrink-0 mx-auto md:mx-0 mt-6 md:mt-0">
                   <img
-                    alt="Jeimeen (Jony) Chaudhari"
+                    alt="Raza Ali"
                     draggable="false"
                     loading="lazy"
                     className="object-cover w-full h-full"
-                    src="https://api.dicebear.com/7.x/notionists/svg?seed=Jeimeen"
+                    src="https://api.dicebear.com/7.x/notionists/svg?seed=RazaAli"
                   />
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default function Page() {
                 <a href="#projects" className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg">
                   View Projects
                 </a>
-                <a href="/Jeimeen_Resume.pdf" download className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg">
+                <a href="/Raza_Ali_Resume.pdf" download className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg">
                   Download Resume
                 </a>
               </div>
@@ -152,10 +152,10 @@ export default function Page() {
                   <div className="absolute -left-3 top-8 w-6 h-6 bg-cyan-500 rounded-full border-4 border-[#030014] group-hover:scale-125 transition-transform duration-300 hidden md:block"></div>
                   <div className="flex flex-col items-center justify-center mb-3">
                     <div className="flex flex-col items-center">
-                      <h3 className="text-2xl font-semibold text-white">Bachelor of Engineering in Computer Engineering</h3>
+                      <h3 className="text-2xl font-semibold text-white">Bachelor of Engineering in Computer Science</h3>
                       <p className="text-lg text-cyan-400">Gec(Surat)</p>
                     </div>
-                    <span className="text-gray-400 text-sm md:text-base mt-2">2023 - 2027</span>
+                    <span className="text-gray-400 text-sm md:text-base mt-2">2025 - 2029</span>
                   </div>
                   <p className="text-gray-300">Focused on software development, data structures, algorithms, and machine learning.</p>
                 </div>
@@ -222,8 +222,8 @@ export default function Page() {
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Framer Motion</span>
                 </div>
                 <div className="mt-auto flex justify-center w-full gap-3">
-                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="https://github.com/JeimeenChaudhari/Batman_CJ">Code</a>
-                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="https://batman-cj.vercel.app">Live</a>
+                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="[Your GitHub Project Link]">Code</a>
+                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="[Your Live Project Link]">Live</a>
                 </div>
               </div>
             </div>
@@ -239,8 +239,8 @@ export default function Page() {
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Vite</span>
                 </div>
                 <div className="mt-auto flex justify-center w-full gap-3">
-                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="https://github.com/JeimeenChaudhari/Typing_speed_test">Code</a>
-                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="https://jeimeenchaudhari.github.io/Typing_speed_test/">Live</a>
+                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="[Your GitHub Project Link]">Code</a>
+                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="[Your Live Project Link]">Live</a>
                 </div>
               </div>
             </div>
@@ -256,8 +256,8 @@ export default function Page() {
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Python</span>
                 </div>
                 <div className="mt-auto flex justify-center w-full gap-3">
-                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="https://github.com/JeimeenChaudhari/fraud_detection-UMP1">Code</a>
-                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="https://fraud-detection-ump1.streamlit.app/">Live</a>
+                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="[Your GitHub Project Link]">Code</a>
+                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="[Your Live Project Link]">Live</a>
                 </div>
               </div>
             </div>
@@ -273,8 +273,8 @@ export default function Page() {
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Pandas</span>
                 </div>
                 <div className="mt-auto flex justify-center w-full gap-3">
-                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="https://github.com/JeimeenChaudhari/BMS_dashboard">Code</a>
-                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="https://bms-dashboardflow.streamlit.app/">Live</a>
+                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="[Your GitHub Project Link]">Code</a>
+                   <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="[Your Live Project Link]">Live</a>
                 </div>
               </div>
             </div>
@@ -291,22 +291,22 @@ export default function Page() {
           
           <div className="flex flex-col lg:flex-row justify-center w-full max-w-5xl gap-10">
             <div className="flex flex-col gap-6 w-full lg:w-1/2 items-center text-center">
-              <a href="mailto:jeimeen3001@gmail.com" className="flex flex-col items-center justify-center w-full max-w-sm gap-2 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
+              <a href="mailto:[Your Email]" className="flex flex-col items-center justify-center w-full max-w-sm gap-2 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
                 <div className="flex flex-col items-center text-center">
                   <span className="text-gray-200 font-semibold text-lg">Email</span>
-                  <span className="text-purple-400">jeimeen3001@gmail.com</span>
+                  <span className="text-purple-400">[Your Email]</span>
                 </div>
               </a>
-              <a href="tel:+919316101640" className="flex flex-col items-center justify-center w-full max-w-sm gap-2 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
+              <a href="tel:[Your Phone Number]" className="flex flex-col items-center justify-center w-full max-w-sm gap-2 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
                 <div className="flex flex-col items-center text-center">
                   <span className="text-gray-200 font-semibold text-lg">Phone</span>
-                  <span className="text-purple-400">+91 9316101640</span>
+                  <span className="text-purple-400">[Your Phone Number]</span>
                 </div>
               </a>
               <div className="flex flex-col items-center justify-center w-full max-w-sm gap-2 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
                 <div className="flex flex-col items-center text-center">
                   <span className="text-gray-200 font-semibold text-lg">Location</span>
-                  <span className="text-purple-400">Surat, Gujarat</span>
+                  <span className="text-purple-400">[Your Location]</span>
                 </div>
               </div>
             </div>

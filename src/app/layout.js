@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata = {
-  title: "Jeimeen Chaudhari - Portfolio",
-  description: "Personal portfolio of Jeimeen Chaudhari, AI/ML Engineer and Web Developer.",
+  title: "Raza Ali - Portfolio",
+  description: "Personal portfolio of Raza Ali, AI/ML Engineer and Web Developer.",
 };
 
 export default function RootLayout({ children }) {
