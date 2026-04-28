@@ -47,7 +47,7 @@ export const portfolioData = {
       id: 1,
       type: "education",
       title: "Bachelor of Engineering in Computer Science",
-      entity: "Gec(Surat)",
+      entity: "[Your University Name]",
       date: "2025 - 2029",
       description: "Focused on software development, data structures, algorithms, and machine learning.",
       tags: []

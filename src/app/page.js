@@ -153,7 +153,7 @@ export default function Page() {
                   <div className="flex flex-col items-center justify-center mb-3">
                     <div className="flex flex-col items-center">
                       <h3 className="text-2xl font-semibold text-white">Bachelor of Engineering in Computer Science</h3>
-                      <p className="text-lg text-cyan-400">Gec(Surat)</p>
+                      <p className="text-lg text-cyan-400">[Your University Name]</p>
                     </div>
                     <span className="text-gray-400 text-sm md:text-base mt-2">2025 - 2029</span>
                   </div>
