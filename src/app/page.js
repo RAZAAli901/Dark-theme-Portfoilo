@@ -19,17 +19,17 @@ export default function Page() {
             <source src="/videos/blackhole.webm" type="video/webm" />
           </video>
           
-          <div className="flex flex-row items-center justify-center px-6 md:px-20 mt-40 w-full z-[20]">
-            <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-              <div className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]">
+          <div className="flex flex-col items-center justify-center px-6 md:px-20 mt-40 w-full z-[20]">
+            <div className="h-full w-full flex flex-col items-center gap-5 justify-center m-auto text-center">
+              <div className="Welcome-box flex flex-row items-center justify-center py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="text-[#b49bff] mr-[10px] h-5 w-5">
                   <path fillRule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5Z" clipRule="evenodd" />
                 </svg>
-                <h1 className="Welcome-text text-[13px]">AI/ML Engineer • Computer Engineer • Web Developer</h1>
+                <h1 className="Welcome-text text-[13px] text-center">AI/ML Engineer • Computer Engineer • Web Developer</h1>
               </div>
 
-              <div className="flex flex-row items-center gap-4 mt-6 flex-wrap md:flex-nowrap">
-                <div className="flex flex-col gap-0 text-5xl md:text-7xl font-bold text-white max-w-[600px]">
+              <div className="flex flex-col items-center justify-center gap-4 mt-6">
+                <div className="flex flex-col items-center gap-0 text-5xl md:text-7xl font-bold text-white max-w-[600px]">
                   <span>
                     Hi, I'm{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Jeimeen</span>{" "}
@@ -51,7 +51,7 @@ export default function Page() {
                 Building production-ready AI systems, intelligent assistants, and ML-driven applications.
               </p>
 
-              <div className="flex flex-row gap-4 flex-wrap">
+              <div className="flex flex-row justify-center gap-4 flex-wrap">
                 <a href="#projects" className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg">
                   View Projects
                 </a>
@@ -61,9 +61,9 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="hidden md:flex w-full h-full justify-center items-center ml-20">
+            <div className="hidden md:flex w-full justify-center items-center mt-10">
               {/* Optional Hero BG Graphic */}
-              <div className="w-[450px] h-[450px] rounded-full bg-gradient-to-tr from-purple-500/20 to-cyan-500/20 blur-3xl shadow-[0_0_100px_rgba(168,85,247,0.4)] animate-pulse"></div>
+              <div className="absolute w-[450px] h-[450px] rounded-full bg-gradient-to-tr from-purple-500/20 to-cyan-500/20 blur-3xl shadow-[0_0_100px_rgba(168,85,247,0.4)] animate-pulse -z-10"></div>
             </div>
           </div>
         </section>
@@ -145,17 +145,17 @@ export default function Page() {
           </h1>
           <div className="w-full max-w-6xl">
             {/* Education */}
-            <div className="mb-16">
-              <h2 className="text-3xl font-semibold text-white mb-8 border-b border-cyan-500 pb-4 w-fit">Education</h2>
-              <div className="space-y-6">
-                <div className="relative p-6 rounded-lg border border-[#2A0E61] bg-[#0300145e] hover:border-cyan-500 transition-all duration-300 group">
-                  <div className="absolute -left-3 top-8 w-6 h-6 bg-cyan-500 rounded-full border-4 border-[#030014] group-hover:scale-125 transition-transform duration-300"></div>
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
-                    <div>
+            <div className="mb-16 flex flex-col items-center">
+              <h2 className="text-3xl font-semibold text-white mb-8 border-b border-cyan-500 pb-4 w-fit text-center">Education</h2>
+              <div className="space-y-6 w-full max-w-4xl">
+                <div className="relative p-6 rounded-lg border border-[#2A0E61] bg-[#0300145e] hover:border-cyan-500 transition-all duration-300 group flex flex-col items-center text-center">
+                  <div className="absolute -left-3 top-8 w-6 h-6 bg-cyan-500 rounded-full border-4 border-[#030014] group-hover:scale-125 transition-transform duration-300 hidden md:block"></div>
+                  <div className="flex flex-col items-center justify-center mb-3">
+                    <div className="flex flex-col items-center">
                       <h3 className="text-2xl font-semibold text-white">Bachelor of Engineering in Computer Engineering</h3>
                       <p className="text-lg text-cyan-400">Gec(Surat)</p>
                     </div>
-                    <span className="text-gray-400 text-sm md:text-base mt-2 md:mt-0">2023 - 2027</span>
+                    <span className="text-gray-400 text-sm md:text-base mt-2">2023 - 2027</span>
                   </div>
                   <p className="text-gray-300">Focused on software development, data structures, algorithms, and machine learning.</p>
                 </div>
@@ -163,38 +163,38 @@ export default function Page() {
             </div>
 
             {/* Experience */}
-            <div>
-              <h2 className="text-3xl font-semibold text-white mb-8 border-b border-purple-500 pb-4 w-fit">Professional Experience</h2>
-              <div className="space-y-6">
+            <div className="flex flex-col items-center">
+              <h2 className="text-3xl font-semibold text-white mb-8 border-b border-purple-500 pb-4 w-fit text-center">Professional Experience</h2>
+              <div className="space-y-6 w-full max-w-4xl">
                 
-                <div className="relative p-6 rounded-lg border border-[#2A0E61] bg-[#0300145e] hover:border-purple-500 transition-all duration-300 group">
-                  <div className="absolute -left-3 top-8 w-6 h-6 bg-purple-500 rounded-full border-4 border-[#030014] group-hover:scale-125 transition-transform duration-300"></div>
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
-                    <div>
+                <div className="relative p-6 rounded-lg border border-[#2A0E61] bg-[#0300145e] hover:border-purple-500 transition-all duration-300 group flex flex-col items-center text-center">
+                  <div className="absolute -left-3 top-8 w-6 h-6 bg-purple-500 rounded-full border-4 border-[#030014] group-hover:scale-125 transition-transform duration-300 hidden md:block"></div>
+                  <div className="flex flex-col items-center justify-center mb-3">
+                    <div className="flex flex-col items-center">
                       <h3 className="text-2xl font-semibold text-white">AI/ML Training</h3>
                       <p className="text-lg text-purple-400">Shell Edunet (Green Skills & AI Lab)</p>
                     </div>
-                    <span className="text-gray-400 text-sm md:text-base mt-2 md:mt-0">Jul 2025 — Nov 2025</span>
+                    <span className="text-gray-400 text-sm md:text-base mt-2">Jul 2025 — Nov 2025</span>
                   </div>
                   <p className="text-gray-300 mb-4">Completed advanced training in Artificial Intelligence and Machine Learning. Gained practical skills in supervised/unsupervised learning... Worked on hands-on projects involving Python, data visualization (Plotly, Matplotlib), and AI-powered applications.</p>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap justify-center gap-2">
                     {["Python", "AI/ML", "Plotly", "Matplotlib", "Data Preprocessing", "Model Evaluation"].map(t => (
                       <span key={t} className="px-3 py-1 text-xs font-medium text-white bg-purple-500/20 rounded-full border border-purple-500/50">{t}</span>
                     ))}
                   </div>
                 </div>
 
-                <div className="relative p-6 rounded-lg border border-[#2A0E61] bg-[#0300145e] hover:border-purple-500 transition-all duration-300 group">
-                  <div className="absolute -left-3 top-8 w-6 h-6 bg-purple-500 rounded-full border-4 border-[#030014] group-hover:scale-125 transition-transform duration-300"></div>
-                  <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
-                    <div>
+                <div className="relative p-6 rounded-lg border border-[#2A0E61] bg-[#0300145e] hover:border-purple-500 transition-all duration-300 group flex flex-col items-center text-center">
+                  <div className="absolute -left-3 top-8 w-6 h-6 bg-purple-500 rounded-full border-4 border-[#030014] group-hover:scale-125 transition-transform duration-300 hidden md:block"></div>
+                  <div className="flex flex-col items-center justify-center mb-3">
+                    <div className="flex flex-col items-center">
                       <h3 className="text-2xl font-semibold text-white">Machine Learning Intern</h3>
                       <p className="text-lg text-purple-400">Unified Mentor</p>
                     </div>
-                    <span className="text-gray-400 text-sm md:text-base mt-2 md:mt-0">Oct 2025 — Nov 2025</span>
+                    <span className="text-gray-400 text-sm md:text-base mt-2">Oct 2025 — Nov 2025</span>
                   </div>
                   <p className="text-gray-300 mb-4">I completed an internship at Unified Mentor where I built four ML projects: Fraud Detection, Lung Cancer Prediction, Phone Price Prediction, and Heart Disease Prediction. I learned data preprocessing, model training, evaluation, and deployment.</p>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap justify-center gap-2">
                     {["Python", "Streamlit", "Machine Learning", "Pandas", "Scikit-learn", "XGBoost"].map(t => (
                       <span key={t} className="px-3 py-1 text-xs font-medium text-white bg-purple-500/20 rounded-full border border-purple-500/50">{t}</span>
                     ))}
@@ -214,14 +214,14 @@ export default function Page() {
             {/* Project 1 */}
             <div className="relative overflow-hidden rounded-xl shadow-lg border border-purple-500/30 flex flex-col bg-[#0300145e] transition-all duration-300 hover:border-purple-500/60">
               <img alt="Batman Theme" className="w-full h-48 object-cover" src="https://placehold.co/600x400/0a0a1a/a855f7?text=Batman+Theme" />
-              <div className="relative p-5 flex flex-col flex-grow">
+              <div className="relative p-5 flex flex-col flex-grow items-center text-center">
                 <h3 className="text-xl font-semibold text-white">Batman-Theme-Website</h3>
                 <p className="mt-2 text-sm text-gray-300 line-clamp-3">Interactive web experience inspired by the Batman universe. It delivers a cinematic UI with smooth animations, dark-themed aesthetics, and engaging transitions.</p>
-                <div className="mt-4 flex flex-wrap gap-2 mb-4">
+                <div className="mt-4 flex flex-wrap justify-center gap-2 mb-4">
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Next.js</span>
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Framer Motion</span>
                 </div>
-                <div className="mt-auto flex gap-3">
+                <div className="mt-auto flex justify-center w-full gap-3">
                    <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="https://github.com/JeimeenChaudhari/Batman_CJ">Code</a>
                    <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="https://batman-cj.vercel.app">Live</a>
                 </div>
@@ -231,14 +231,14 @@ export default function Page() {
             {/* Project 2 */}
             <div className="relative overflow-hidden rounded-xl shadow-lg border border-purple-500/30 flex flex-col bg-[#0300145e] transition-all duration-300 hover:border-purple-500/60">
               <img alt="Typing Speed" className="w-full h-48 object-cover" src="https://placehold.co/600x400/0a0a1a/a855f7?text=Typing+Speed+Test" />
-              <div className="relative p-5 flex flex-col flex-grow">
+              <div className="relative p-5 flex flex-col flex-grow items-center text-center">
                 <h3 className="text-xl font-semibold text-white">Typing Speed Test</h3>
                 <p className="mt-2 text-sm text-gray-300 line-clamp-3">A fast, interactive typing speed tester built with React. It measures your typing speed in Words Per Minute (WPM), tracks accuracy, mistakes, and shows detailed results.</p>
-                <div className="mt-4 flex flex-wrap gap-2 mb-4">
+                <div className="mt-4 flex flex-wrap justify-center gap-2 mb-4">
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">React</span>
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Vite</span>
                 </div>
-                <div className="mt-auto flex gap-3">
+                <div className="mt-auto flex justify-center w-full gap-3">
                    <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="https://github.com/JeimeenChaudhari/Typing_speed_test">Code</a>
                    <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="https://jeimeenchaudhari.github.io/Typing_speed_test/">Live</a>
                 </div>
@@ -248,14 +248,14 @@ export default function Page() {
             {/* Project 3 */}
             <div className="relative overflow-hidden rounded-xl shadow-lg border border-purple-500/30 flex flex-col bg-[#0300145e] transition-all duration-300 hover:border-purple-500/60">
               <img alt="Fraud Detection" className="w-full h-48 object-cover" src="https://placehold.co/600x400/0a0a1a/a855f7?text=Fraud+Detection" />
-              <div className="relative p-5 flex flex-col flex-grow">
+              <div className="relative p-5 flex flex-col flex-grow items-center text-center">
                 <h3 className="text-xl font-semibold text-white">Fraud Detection App</h3>
                 <p className="mt-2 text-sm text-gray-300 line-clamp-3">A Streamlit app that utilizes machine learning algorithms to detect fraudulent activities in financial transactions, providing users with real-time analysis.</p>
-                <div className="mt-4 flex flex-wrap gap-2 mb-4">
+                <div className="mt-4 flex flex-wrap justify-center gap-2 mb-4">
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Streamlit</span>
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Python</span>
                 </div>
-                <div className="mt-auto flex gap-3">
+                <div className="mt-auto flex justify-center w-full gap-3">
                    <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="https://github.com/JeimeenChaudhari/fraud_detection-UMP1">Code</a>
                    <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="https://fraud-detection-ump1.streamlit.app/">Live</a>
                 </div>
@@ -265,14 +265,14 @@ export default function Page() {
             {/* Project 4 */}
             <div className="relative overflow-hidden rounded-xl shadow-lg border border-purple-500/30 flex flex-col bg-[#0300145e] transition-all duration-300 hover:border-purple-500/60">
               <img alt="BMS Dashboard" className="w-full h-48 object-cover" src="https://placehold.co/600x400/0a0a1a/a855f7?text=BMS+Dashboard" />
-              <div className="relative p-5 flex flex-col flex-grow">
+              <div className="relative p-5 flex flex-col flex-grow items-center text-center">
                 <h3 className="text-xl font-semibold text-white">Battery BMS Dashboard</h3>
                 <p className="mt-2 text-sm text-gray-300 line-clamp-3">A comprehensive dashboard for monitoring and managing battery management systems (BMS) in electric vehicles, providing real-time data visualizaton.</p>
-                <div className="mt-4 flex flex-wrap gap-2 mb-4">
+                <div className="mt-4 flex flex-wrap justify-center gap-2 mb-4">
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Streamlit</span>
                    <span className="px-2 py-1 text-xs text-white bg-purple-500/20 rounded-full border border-purple-500/50">Pandas</span>
                 </div>
-                <div className="mt-auto flex gap-3">
+                <div className="mt-auto flex justify-center w-full gap-3">
                    <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-[#2A0E61] text-xs font-semibold hover:bg-purple-600 transition" href="https://github.com/JeimeenChaudhari/BMS_dashboard">Code</a>
                    <a target="_blank" rel="noreferrer" className="flex-1 text-center py-2 rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-xs font-semibold hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" href="https://bms-dashboardflow.streamlit.app/">Live</a>
                 </div>
@@ -289,22 +289,22 @@ export default function Page() {
             <p className="text-gray-300">I'm available for freelance and full time work.</p>
           </div>
           
-          <div className="flex flex-col lg:flex-row justify-between w-full max-w-5xl gap-10">
-            <div className="flex flex-col gap-6 w-full lg:w-1/2">
-              <a href="mailto:jeimeen3001@gmail.com" className="flex items-center gap-4 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
-                <div className="flex flex-col">
+          <div className="flex flex-col lg:flex-row justify-center w-full max-w-5xl gap-10">
+            <div className="flex flex-col gap-6 w-full lg:w-1/2 items-center text-center">
+              <a href="mailto:jeimeen3001@gmail.com" className="flex flex-col items-center justify-center w-full max-w-sm gap-2 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
+                <div className="flex flex-col items-center text-center">
                   <span className="text-gray-200 font-semibold text-lg">Email</span>
                   <span className="text-purple-400">jeimeen3001@gmail.com</span>
                 </div>
               </a>
-              <a href="tel:+919316101640" className="flex items-center gap-4 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
-                <div className="flex flex-col">
+              <a href="tel:+919316101640" className="flex flex-col items-center justify-center w-full max-w-sm gap-2 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
+                <div className="flex flex-col items-center text-center">
                   <span className="text-gray-200 font-semibold text-lg">Phone</span>
                   <span className="text-purple-400">+91 9316101640</span>
                 </div>
               </a>
-              <div className="flex items-center gap-4 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
-                <div className="flex flex-col">
+              <div className="flex flex-col items-center justify-center w-full max-w-sm gap-2 p-4 rounded-xl border border-[#2A0E61] bg-[#0300145e] hover:bg-[#2A0E61] transition-all">
+                <div className="flex flex-col items-center text-center">
                   <span className="text-gray-200 font-semibold text-lg">Location</span>
                   <span className="text-purple-400">Surat, Gujarat</span>
                 </div>
